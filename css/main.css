@@ -10,7 +10,7 @@ h1 {
   line-height: 1;
   text-align: center;
   background-color: lightyellow;
-  padding: 1em 2em 0.5em 3em;
+  padding: 1em 0em 0.5em 0em;
   margin: 0;
 }
 
@@ -31,12 +31,12 @@ nav li {
 
 nav a {
   display: inline-block;
-  padding: 0.5em 0.75em;
-  background-color: red;
+  padding: 0.5em 0.75em 0.75em;
+  margin: 6px;
+  background-color: darkred;
   color: black;
   text-decoration: none;
   border-radius: 4px;
-  width: 5.5em;
 }
 
 ol {
@@ -70,7 +70,7 @@ h2 {
   font-style: italic;
   font-family: 'Indie Flower', cursive;
   line-height: 1;
-
+  margin: 1em 0em 0em 0em;
 }
 
 em {
@@ -112,6 +112,14 @@ li {
   font-family: 'Indie Flower', cursive;
   line-height: 1;
   color: purple;
+
+}
+
+figure {
+  border: solid;
+  margin: 2px;
+  padding: 1em;
+  border-radius: 20px;
 }
 
 figcaption {
@@ -120,6 +128,7 @@ figcaption {
   font-style: italic;
   font-family: 'Indie Flower', cursive;
   line-height: 1;
+  text-align: center
 }
 
 dt {
@@ -129,4 +138,14 @@ dt {
   font-family: 'Indie Flower', cursive;
   line-height: 1;
   color: purple;
+}
+
+footer {
+  background-color: lightyellow;
+  text-align: left;
+  line-height: 4;
+}
+
+img {
+  width: 100%
 }
